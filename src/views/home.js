@@ -46,7 +46,7 @@ export default class Home extends React.Component {
   };
 
   getContact = async () => {
-    const url = "/contact";
+    const url = "https://simple-contact-crud.herokuapp.com/contact";
     const response = await fetch(url, {
       method: "GET"
     });
