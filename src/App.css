@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.background {
+  height: 100vh;
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+}
+
+.content {
+  height: 90vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  overflow-y: auto;
+}
+
+.headerContactList {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  text-align: center;
+}
