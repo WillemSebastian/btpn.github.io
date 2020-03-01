@@ -28,7 +28,7 @@ export default function Modal(props) {
     };
 
     if (props.status === "add") {
-      const url = "/contact";
+      const url = "https://simple-contact-crud.herokuapp.com/contact";
       const response = await fetch(url, {
         mode: "no-cors",
         method: "POST",
@@ -43,7 +43,8 @@ export default function Modal(props) {
         props.openFailAlert();
       }
     } else {
-      const url = "/contact/" + props.data.id;
+      const url =
+        "https://simple-contact-crud.herokuapp.com/contact/" + props.data.id;
       const response = await fetch(url, {
         method: "PUT",
         body: JSON.stringify(form)
