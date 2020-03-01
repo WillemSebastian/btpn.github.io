@@ -30,6 +30,7 @@ export default function Modal(props) {
     if (props.status === "add") {
       const url = "/contact";
       const response = await fetch(url, {
+        mode: "no-cors",
         method: "POST",
         body: JSON.stringify(form)
       });
