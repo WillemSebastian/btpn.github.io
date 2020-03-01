@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/btpn.github.io/static/css/main.0fce6d35.chunk.css",
+    "main.js": "/btpn.github.io/static/js/main.2b744584.chunk.js",
+    "main.js.map": "/btpn.github.io/static/js/main.2b744584.chunk.js.map",
+    "runtime-main.js": "/btpn.github.io/static/js/runtime-main.3b700e73.js",
+    "runtime-main.js.map": "/btpn.github.io/static/js/runtime-main.3b700e73.js.map",
+    "static/js/2.ad91ca90.chunk.js": "/btpn.github.io/static/js/2.ad91ca90.chunk.js",
+    "static/js/2.ad91ca90.chunk.js.map": "/btpn.github.io/static/js/2.ad91ca90.chunk.js.map",
+    "index.html": "/btpn.github.io/index.html",
+    "precache-manifest.e32f3a07a68ab7564450a75c27711efa.js": "/btpn.github.io/precache-manifest.e32f3a07a68ab7564450a75c27711efa.js",
+    "service-worker.js": "/btpn.github.io/service-worker.js",
+    "static/css/main.0fce6d35.chunk.css.map": "/btpn.github.io/static/css/main.0fce6d35.chunk.css.map",
+    "static/js/2.ad91ca90.chunk.js.LICENSE.txt": "/btpn.github.io/static/js/2.ad91ca90.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b700e73.js",
+    "static/js/2.ad91ca90.chunk.js",
+    "static/css/main.0fce6d35.chunk.css",
+    "static/js/main.2b744584.chunk.js"
+  ]
+}
